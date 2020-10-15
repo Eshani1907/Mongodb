@@ -1,0 +1,7 @@
+For inserting new data in this movie dataset
+
+use movieData
+
+db.movies.inseetOne({
+                     name: "Max"
+                     age : 29})
