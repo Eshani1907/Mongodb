@@ -2,6 +2,16 @@ For inserting new data in this movie dataset
 
 use movieData
 
-db.movies.inseetOne({
-                     name: "Max"
+db.movies.insertOne({
+                     name: "Max",
                      age : 29})
+
+# This will submit multiple and single docs and take an array of documents.
+db.movies.insertMany([ 
+                      {name : "Esh".
+                       age : 22},
+                       
+                       {name : "Abh",
+                        age : 20}
+                      ])  
+                      
